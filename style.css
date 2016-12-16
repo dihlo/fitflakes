@@ -1,6 +1,10 @@
 html {
 	font-family: 'Roboto', sans-serif;
 }
+li {
+	list-style-type: none;
+	font-family: 'Philosopher', sans-serif;
+}
 .navbar-inverse {
 	background: black;
 	opacity: 0.2;
@@ -9,18 +13,18 @@ html {
 .navbar li {
 	font-size: 24px;
 }
-h1{
+.h1_text {
 	margin-top: 0px;
 	font-size: 140px;
 	text-align: center;
 	padding-top: 150px; 
 	color: #ffe830;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Russo One', sans-serif;
 }
-h2 {
+.h2_text_logo {
 	text-align: center;
-	color: #3C993C;
-	font-family: 'Gloria Hallelujah', cursive;
+	color: #35e235;
+	font-family: 'Pattaya', sans-serif;
 	/*text-shadow: 0px 0px 0.2px #DAFFA3;*/
 	font-size: 52px;
 }
@@ -28,10 +32,71 @@ h2 {
 
 .background_img {
 	background: url(images/back.jpg) no-repeat;
-	-moz-background-size: 100%;
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-	width: 100%;
-	height: 800px;
+	background-position: center center;
+	-moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 	
+	height: 100vh;
+}
+.padding_0 {
+	padding-left: 0;
+	padding-right: 0; 
+}
+.about_1 {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: #633007;
+}
+.border_icon {
+	width: 50%;
+	margin: 0 auto;
+	height: 42px;
+	text-align: center;
+}
+.line_center {
+	width: 100%; 
+	text-align: center; 
+	border: 4px solid #b84129; 
+	line-height: 0.2em;
+	position: relative;
+	top: -20px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+	z-index: 0; 
+}
+.i_zindex {
+	z-index: 1000;
+	background: white;
+	position: relative;
+	width: 80px;
+	color: #2c9823;
+}
+.about_product ul li{
+	padding-top: 10px; 
+	text-align: center;
+	font-size: 30px;
+}
+.about_product ul {
+	padding-left: 0px;
+}
+.food {
+	height: 20px;
+	text-align: center;
+}
+.food img {
+	height: 170px;
+	text-align: right;
+}
+.food_33 {
+	width: 33%;
+	float: left;
+}
+.food p {
+	padding-top: 15px; 
+	font-size: 24px;
+	font-family: 'Philosopher', sans-serif;
+}
+.colore {
+	color: #e20a0a;
 }
