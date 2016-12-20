@@ -10,22 +10,24 @@ li {
 	border: none;
 }
 .navbar li {
-	font-size: 24px;
+	font-size: 2em;
 }
 .h1_text {
 	margin-top: 0px;
-	font-size: 140px;
+	font-size: 12em;
 	text-align: center;
 	padding-top: 150px; 
 	color: #ffe830;
 	font-family: 'Russo One', sans-serif;
+	text-shadow: 3px 3px 20px #000000;
 }
 .h2_text_logo {
 	text-align: center;
-	color: #35e235;
-	font-family: 'Pattaya', sans-serif;
+	color: #f5f0f4;
+	font-family: 'Philosopher', sans-serif;
 	/*text-shadow: 0px 0px 0.2px #DAFFA3;*/
-	font-size: 52px;
+	font-size: 4em;
+	text-shadow: 3px 3px 20px #000000;
 }
 
 
@@ -99,7 +101,7 @@ li {
 .about_product ul li{
 	padding-top: 10px; 
 	text-align: center;
-	font-size: 30px;
+	font-size: 2.1em;
 	height: 100%;
 }
 .about_product ul {
@@ -119,20 +121,22 @@ li {
 }
 .food p {
 	padding-top: 15px; 
-	font-size: 30px;
+	font-size: 2.2em;
 	font-family: 'Philosopher', sans-serif;
+	padding-bottom: 26px; 
 }
 .colore {
 	color: #e20a0a;
 }
 .products_row_1 img {
 	height: 100%;
-	width: 70%;
+	width: 50%;
+	padding-top: 40px;
 }
 .products_row_1 {
 	text-align: center;
 	font-family: 'Philosopher', sans-serif;
-	font-size: 32px;
+	font-size: 2em;
 	padding-top: 10px;
 }
 p {
@@ -194,7 +198,7 @@ padding-bottom: 60px;
 	height: 40px;
 	width: 150px;
 	border: none;
-	background: rgba(231,237,235, 1);
+	background: #46bd45;
 }
 .contacts_us input {
 	-webkit-border-radius: 5px 5px 5px 5px;
@@ -206,9 +210,106 @@ padding-bottom: 60px;
 }
 .products_row_1 h3 {
 	font-family: 'Russo One', sans-serif;
-	font-size: 40px;
-	color: #f7941d;
+	font-size: 0.8em;
+	color: #000000;
 }
 .products_row_1 p {
+	font-size: 0.5em;
+	color: #f3f8f5;
+}
+.about_white {
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 3px 3px 4px #000000;	
+}
+.healt_center_img {
+	text-align: center;
+	padding-top: 2em;
+}
+.healt_center_img p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 43px;
+}
+.healt_center_img span {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1em;
+	color: #bdb7b7;
+	display: block;
+    padding-top: 16px;
+    padding-bottom: 25px;	
+}
+.healt_center_img img {
+	height: 100%;
+	width: 50%;
+}
+.do_zakaz {
+	margin: 0 auto;
+	font-size: 2.8em;
+	font-family: 'Roboto', sans-serif;
+	height: 70px;
+	width: 280px;
+	background: black;
+	margin-top: 60px;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+}
+.do_zakaz a {
+	color: white;
+	text-decoration: none;
+}
+.do_zakaz a:hover{
+	border-bottom: 1px solid white;
+}
+.button_down {
+	margin: 0 auto;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+.button_down a {
+	color: #6b3535;
+}
+.about_text_color {
+	color: #000;
+	font-size: 45px;
+}
+.about_icon_color {
+	color: green;
+}
+.about_stick_color {
+	border-color: red;
+}
+.about_stick_color_2 {
+	border-color: purple;
+}
+.about_icon_color_2 {
+	color: #ff2c2c;
+}
+.products_name_razdel {
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 3px 3px 3px #000000;
+}
+.form_connect {
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+.form_connect_input {
+	width: 300px;
+}
+.phone_h1 {
 	font-size: 24px;
+}
+.phone_h1 a {
+	color: #FFFFFF;
+}
+.footer_icon_color {
+	color: #FFFFFF;
+}
+.margin-top-a {
+	height: 10%;
 }
