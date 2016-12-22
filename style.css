@@ -65,6 +65,7 @@ li {
 }
 .border_icon {
 	width: 50%;
+	padding-top: 20px;
 	margin: 0 auto;
 	height: 42px;
 	text-align: center;
@@ -116,8 +117,13 @@ li {
 	text-align: right;
 }
 .food_33 {
-	width: 33%;
 	float: left;
+	width: 33%;
+	text-align: center;
+}
+.food_33 img{
+	height: 100%;
+    width: 80%;
 }
 .food p {
 	padding-top: 15px; 
@@ -130,8 +136,9 @@ li {
 }
 .products_row_1 img {
 	height: 100%;
-	width: 50%;
-	padding-top: 40px;
+    width: 50%;
+    margin-top: 40px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3)
 }
 .products_row_1 {
 	text-align: center;
@@ -366,5 +373,40 @@ padding-bottom: 60px;
 		font-size: 0.3em;
 		color: #f3f8f5;
 	}
+	.contacts_us form {
+	-webkit-box-shadow: 2px 1px 5px 2px #191919;
+	box-shadow: 2px 1px 5px 2px #191919;
+	width: 250px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.8);
+	font-family: 'Philosopher', sans-serif;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	}
+	.form_connect_input {
+	width: 200px;
+	}
+	.healt_center_img p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1em;
+	color: white;
+	padding-top: 43px;
+	}
+	.form_connect {
+	padding-bottom: 40px;
+	font-size: 2em;
+	}
+	.footer_padding {
+		padding-left: -15px;
+		padding-right: 15px;
+	}
+	.food img {
+	height: 50px;
+	text-align: right;
+	}
+	.border_icon {
+		display: none;
+	}	
 }
 
