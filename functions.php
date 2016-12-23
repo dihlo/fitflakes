@@ -15,6 +15,7 @@ if ( ! function_exists( 'fitflakes_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+remove_filter('the_content', 'wpautop');
 function fitflakes_setup() {
 	/*
 	 * Make theme available for translation.
@@ -99,18 +100,25 @@ function fitflakes_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'fitflakes_widgets_init' );
-
+/*Подключаем стили и скрипты в подвал*/
 function afolio_scripts() {
-	wp_enqueue_style( 'afolio-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'bootstrap', get_stylesheet_uri().'/css/bootstrap.min.css' );
+	/*wp_enqueue_style( 'afolio-style', get_stylesheet_uri() );*/
+	wp_enqueue_style( 'bootstrapmin', get_stylesheet_directory_uri().'/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.css' );	
+	wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/css/style.css' );
+	wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri().'/css/font-awesome.min.css' );
+	wp_enqueue_style( 'animations', get_stylesheet_directory_uri().'/css/animations.css' );
+	wp_enqueue_style( 'animations-ie-fix', get_stylesheet_directory_uri().'/css/animations-ie-fix.css' );
+	wp_enqueue_script( 'jquery', get_template_directory_uri().'/js/jquery.js', array('jquery'), false, true );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.min.js', array(), false, true );
+	wp_enqueue_script( 'css3-animate-it', get_template_directory_uri().'/js/css3-animate-it.js', array(), false, true );
+	wp_enqueue_script( 'main.js', get_template_directory_uri().'/js/main.js',array(), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'afolio_scripts');
 /**
  * Enqueue scripts and styles.
  */
 function fitflakes_scripts() {
-	wp_enqueue_style( 'fitflakes-style', get_stylesheet_uri() );
-
 	wp_enqueue_script( 'fitflakes-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'fitflakes-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -120,6 +128,12 @@ function fitflakes_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'fitflakes_scripts' );
+add_action( 'wp_default_scripts', function( $scripts ) {
+    if ( ! empty( $scripts->registered['jquery'] ) ) {
+        $jquery_dependencies = $scripts->registered['jquery']->deps;
+        $scripts->registered['jquery']->deps = array_diff( $jquery_dependencies, array( 'jquery-migrate' ) );
+    }
+} );
 
 /**
  * Implement the Custom Header feature.

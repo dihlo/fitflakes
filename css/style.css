@@ -1,0 +1,412 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+li {
+	list-style-type: none;
+	font-family: 'Philosopher', sans-serif;
+}
+.navbar-inverse {
+	background: black;
+	border: none;
+}
+.navbar li {
+	font-size: 2em;
+}
+.h1_text {
+	margin-top: 0px;
+	font-size: 12em;
+	text-align: center;
+	padding-top: 150px; 
+	color: #ffe830;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 3px 3px 20px #000000;
+}
+.h2_text_logo {
+	text-align: center;
+	color: #f5f0f4;
+	font-family: 'Philosopher', sans-serif;
+	/*text-shadow: 0px 0px 0.2px #DAFFA3;*/
+	font-size: 4em;
+	text-shadow: 3px 3px 20px #000000;
+}
+
+
+.background_img {
+	background: url(images/back.jpg) no-repeat;
+	background: -webkit-linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url(images/back.jpg) no-repeat;
+	background: -o-linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url(images/back.jpg) no-repeat;
+	background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url(images/back.jpg) no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 	
+	height: 100vh;
+}
+.padding_0 {
+	padding-left: 0;
+	padding-right: 0; 
+}
+.padding_0_top {
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+.about_1 {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: #633007;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.about_2 {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: #000000;
+}
+.border_icon {
+	width: 50%;
+	padding-top: 20px;
+	margin: 0 auto;
+	height: 42px;
+	text-align: center;
+}
+.line_center_left {
+	width: 40%; 
+	text-align: center; 
+	border: 1px solid #b84129; 
+	line-height: 0.2em;
+	position: relative;
+	top: -20px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+	z-index: 0; 
+}
+.line_center_right {
+	width: 40%; 
+	text-align: center; 
+	border: 1px solid #b84129; 
+	line-height: 0.2em;
+	position: relative;
+	top: -20px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+	z-index: 0; 
+	float: right;
+}
+.i_zindex {
+	z-index: 1000;
+	position: relative;
+	width: 80px;
+	color: #3a094a;
+}
+.about_product ul li{
+	padding-top: 10px; 
+	text-align: center;
+	font-size: 2.1em;
+	height: 100%;
+}
+.about_product ul {
+	padding-left: 0px;
+}
+.food {
+	height: 20px;
+	text-align: center;
+}
+.food img {
+	height: 300px;
+	text-align: right;
+}
+.food_33 {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.food_33 img{
+	height: 100%;
+    width: 80%;
+}
+.food p {
+	padding-top: 15px; 
+	font-size: 2.2em;
+	font-family: 'Philosopher', sans-serif;
+	padding-bottom: 26px; 
+}
+.colore {
+	color: #e20a0a;
+}
+.products_row_1 img {
+	height: 100%;
+    width: 50%;
+    margin-top: 40px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3)
+}
+.products_row_1 {
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 2em;
+	padding-top: 10px;
+}
+p {
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+}
+.bs-docs-footer {
+	padding-top: 50px;
+    padding-bottom: 50px;
+    color: #99979c;
+    background-color: #21042f;
+}
+.bs-docs-footer p {
+	text-align: left;
+}
+.bs-docs-footer p a{
+	padding: 5px;
+}
+.products_all {
+background: #fe8c00; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fe8c00 , #f83600); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+padding-bottom: 60px;
+}
+.about_healt {
+	padding: 50px 0 50px 0;
+	background: -webkit-linear-gradient(rgba(20,20,20, 0.4), rgba(20,20,20, 0.9)), url(images/qfivxu7nxgu-sambazon.jpg) no-repeat;
+	background: -o-linear-gradient(rgba(20,20,20, 0.4), rgba(20,20,20, 0.9)), url(images/qfivxu7nxgu-sambazon.jpg) no-repeat;
+	background: linear-gradient(rgba(20,20,20, 0.4), rgba(20,20,20, 0.9)), url(images/qfivxu7nxgu-sambazon.jpg) no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}	
+   
+#contacts_us {
+	background: url(images/ttrjmhrkoey-juan-jose-valencia-antia-min.jpg) no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    padding: 80px 0;	
+}
+.contacts_us form {
+	-webkit-box-shadow: 2px 1px 5px 2px #191919;
+	box-shadow: 2px 1px 5px 2px #191919;
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.8);
+	font-family: 'Philosopher', sans-serif;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.submit input {
+	height: 40px;
+	width: 150px;
+	border: none;
+	background: #46bd45;
+}
+.contacts_us input {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.contacts_us textarea {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.products_row_1 h3 {
+	font-family: 'Russo One', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+}
+.products_row_1 p {
+	font-size: 0.5em;
+	color: #f3f8f5;
+}
+.about_white {
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 3px 3px 4px #000000;	
+}
+.healt_center_img {
+	text-align: center;
+	padding-top: 2em;
+}
+.healt_center_img p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 43px;
+}
+#text_polza {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1em;
+	color: #bdb7b7;
+	display: block;
+    padding-top: 16px;
+    padding-bottom: 25px;	
+}
+.healt_center_img img {
+	height: 100%;
+	width: 50%;
+}
+.do_zakaz {
+	margin: 0 auto;
+	font-size: 2.8em;
+	font-family: 'Roboto', sans-serif;
+	height: 70px;
+	width: 280px;
+	background: black;
+	margin-top: 60px;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+}
+.do_zakaz a {
+	color: white;
+	text-decoration: none;
+}
+.do_zakaz a:hover{
+	border-bottom: 1px solid white;
+}
+.button_down {
+	margin: 0 auto;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+.button_down a {
+	color: #6b3535;
+}
+.about_text_color {
+	color: #000;
+	font-size: 45px;
+}
+.about_icon_color {
+	color: green;
+}
+.about_stick_color {
+	border-color: red;
+}
+.about_stick_color_2 {
+	border-color: purple;
+}
+.about_icon_color_2 {
+	color: #ff2c2c;
+}
+.products_name_razdel {
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 3px 3px 3px #000000;
+}
+.form_connect {
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+.form_connect_input {
+	width: 300px;
+}
+.phone_h1 {
+	font-size: 24px;
+}
+.phone_h1 a {
+	color: #FFFFFF;
+}
+.footer_icon_color {
+	color: #FFFFFF;
+}
+.margin-top-a {
+	height: 10%;
+}
+@media screen and (max-width:768px) { 
+	.h1_text {
+	margin-top: 0px;
+	font-size: 4em;
+	text-align: center;
+	padding-top: 150px; 
+	color: #ffe830;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 3px 3px 20px #000000;
+	}
+	.h2_text_logo {
+	text-align: center;
+	color: #f5f0f4;
+	font-family: 'Philosopher', sans-serif;
+	/*text-shadow: 0px 0px 0.2px #DAFFA3;*/
+	font-size: 2em;
+	text-shadow: 3px 3px 20px #000000;
+	}
+	.do_zakaz {
+	margin: 0 auto;
+	font-size: 2.8em;
+	font-family: 'Roboto', sans-serif;
+	height: 70px;
+	width: 280px;
+	background: black;
+	margin-top: 60px;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+	}
+	.about_text_color {
+	color: #000;
+	font-size: 2em;
+	}
+	.fa-4x {
+	    font-size: 2em;
+	}
+	.food img {
+	height: 100px;
+	text-align: right;
+	}
+	.navbar li {
+	font-size: 1em;
+	}
+	.products_row_1 h3 {
+		font-family: 'Russo One', sans-serif;
+		font-size: 0.2em;
+		color: #000000;
+	}
+	.products_row_1 p {
+		font-size: 0.3em;
+		color: #f3f8f5;
+	}
+	.contacts_us form {
+	-webkit-box-shadow: 2px 1px 5px 2px #191919;
+	box-shadow: 2px 1px 5px 2px #191919;
+	width: 250px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.8);
+	font-family: 'Philosopher', sans-serif;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	}
+	.form_connect_input {
+	width: 200px;
+	}
+	.healt_center_img p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1em;
+	color: white;
+	padding-top: 43px;
+	}
+	.form_connect {
+	padding-bottom: 40px;
+	font-size: 2em;
+	}
+	.footer_padding {
+		padding-left: -15px;
+		padding-right: 15px;
+	}
+	.food img {
+	height: 50px;
+	text-align: right;
+	}
+	.border_icon {
+		display: none;
+	}	
+}
+

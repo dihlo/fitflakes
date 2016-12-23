@@ -1,3 +1,15 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package fitflakes
+ */
+
+?>
       <div class="row">
         <footer class="bs-docs-footer col-xs-12 col-md-12 col-lg-12">
           <div class="container">
@@ -15,12 +27,7 @@
         </footer>         
       </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="js/css3-animate-it.js"></script> Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/css3-animate-it.js"></script>
-    <script src="js/main.js"></script>
+    <?php wp_footer(); ?>
   </body>
 </html>
-

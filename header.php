@@ -15,13 +15,27 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>FitFlakes</title>
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya|Philosopher|Russo+One&amp;subset=cyrillic" rel="stylesheet">
+	<?php wp_head();?>
+  </head>
+  <body>
+  <div class="container-fluid">
 
-<?php wp_head(); ?>
+<?php /*
 </head>
-
-<body <?php body_class(); ?>>
+<body <?php //body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fitflakes' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php //esc_html_e( 'Skip to content', 'fitflakes' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
@@ -35,15 +49,16 @@
 
 			$description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $description;  ?></p>
 			<?php
 			endif; ?>
-		</div><!-- .site-branding -->
+		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fitflakes' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		</nav>
+	</header>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content">*/
+?>
